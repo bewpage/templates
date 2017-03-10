@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box; /* box elementow ustalony */
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container::after, header::after,
+body::after, #about::after, footer::after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.container::before, header::before,
+body::before, #about::before, footer::before {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.container {
+  margin: 0 auto; /*wysrodkowuje elementy na stronie*/
+  width: 920px;
+  border: 1px solid black;
+}
+
+header, footer, section {
+  width: 100%;
+  border: 1px solid white;
+}
+
+
+
+
+/*header*/
+#welcome {
+  height: 800px;
+  background-image: url("../images/background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+
+header {
+  height: 80px;
+  color: white;
+  border: 1px solid black;
+}
+
+.logo {
+  height: 80px;
+  border: 1px solid black;
+  float:left;
+}
+.menu p {
+ border: 1px solid black;
+ float: right;
+}
+
+h1 {
+  color: white;
+}
+
+div.text-main {
+  color: white;
+  height: 720px;
+  border: 1px solid white;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+
+
+.button {
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+
+/*about section*/
+#about {
+  height: 500px;
+  border: 1px solid black;
+}
+
+.body {
+  height: 250px;
+  /*width: 250px;*/
+  border: 1px solid black;
+  /*float: left;*/
+}
+
+text-about-1 {
+font
+}
+
+/*footer section*/
+footer {
+  height: 300px;
+  border: 1px solid white;
+  background-color: black
+}
+
+.text-footer {
+  color: white;
+}

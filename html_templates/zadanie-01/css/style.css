@@ -1,0 +1,194 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header, h1, section, article, nav, div {
+	border: 1px solid red;
+}
+*/
+
+
+header {
+	width: 100%;
+}
+
+.container {
+	width: 920px;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: black;
+	height: 300px;
+}
+
+
+h1 {
+	text-transform: uppercase;
+}
+
+header::before, header::after,
+section::before, section::after,
+footer::before, footer::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+div.header_logo {
+	float: left
+}
+
+div.header_logo img {
+	margin-top: 27px;
+	width: 100px;
+	height: 20px;
+}
+
+nav.header_menu {
+	float: right;
+}
+
+
+nav.header_menu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+nav.header_menu ul li a {
+	line-height: 80px;
+	font-size: 14px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+
+#welcome {
+	height: 800px;
+
+	font-weight: 100%;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.welcome_box {
+	padding-top: 170px;
+}
+
+div.welcome_box h1 {
+	color: white;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 400;
+}
+
+
+p.welcome_slogan {
+	margin-bottom: 20px;
+	color: white;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+div.welcome_buttom {
+	height: 70px;
+	width: 200px;
+	border-radius: 5px;
+	background-color: red;
+	text-align: center;
+	line-height: 70px;
+	margin-top: 50px;
+	color: white;
+}
+
+div.welcome_buttom a {
+	color: white;
+}
+
+section#abbout {
+	height: 500px;
+}
+
+.article_left, .article_right {
+	width: 48%;
+}
+
+.article_left {
+	float: left;
+	margin-top: 175px;
+	margin-bottom: 175px;
+
+}
+
+article.article_left p {
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+
+.article_right {
+	float: right;
+	color: #b7b7b7;
+}
+
+article.article_right p:first-child {
+	margin-top: 125px;
+	margin-bottom: 26px;
+}
+article.article_right p:last-child {
+	margin-bottom: 125px;
+}
+
+footer div.footer_logo {
+	height: 90px;
+}
+
+footer div img {
+
+	margin-top: 35px;
+	margin-bottom: 35px;
+	width: 100px;
+	height: 20px;
+}
+
+.footer_menu {
+	margin: 0 auto;
+	text-align: center;
+}
+
+div.footer_menu div {
+	display: inline-block;
+	color: #353434;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	width: 226px;
+	margin: 0px;
+	vertical-align: top;
+	text-align: left;
+}
+
+div.footer_menu div p {
+	line-height: 30px;
+}
+
+div.footer_menu div p a {
+	color: #353434;
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
