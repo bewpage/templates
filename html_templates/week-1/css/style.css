@@ -14,14 +14,6 @@ header, footer {
   background-color: lightgreen;
 }
 
-/*to add background to header*/
-/*header {
-  background-image: url("../images/night-sky.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: auto;
-}*/
-
 h1 {
   margin: 2px;
   font-size: 50px;
