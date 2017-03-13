@@ -1,0 +1,117 @@
+/*general styles*/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header::before, header::after,
+section::before, section::after,
+footer::before, footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main__width {
+  width: 920px;
+  margin: 0 auto;
+  border:1px solid green;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/*header style*/
+body > header {
+  width: 100%;
+  border: 1px solid red;
+  background-color: black;
+  height: 50px;
+  line-height: 50px;
+}
+
+header div {
+  color: white;
+  border: 1px solid red;
+}
+
+header div a {
+  display: inline-block;
+  color: white;
+}
+
+.header__logo {
+  width: 200px;
+  float:left;
+}
+
+
+
+
+/*menu*/
+.header__main-nav {
+  float: right;
+  position: relative;
+}
+
+body nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+nav > ul > li a:hover {
+  border-bottom: 2px solid #24ba9f;
+}
+
+.header__main-nav li:hover ul.submenu {
+    display: block;
+    }
+
+.header__main-nav ul li a {
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  width: 150px;
+  border: 1px solid red;
+  margin-top: 20px;
+  background-color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.submenu li a {
+  text-decoration: none;
+  border: 1px solid red;
+  width: 100px;
+  height: 50px;
+  color: black;
+  line-height: 50px;
+  text-decoration: none;
+  display: block;
+}
